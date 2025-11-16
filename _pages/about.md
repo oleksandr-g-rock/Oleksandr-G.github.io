@@ -5,21 +5,30 @@ permalink: /about/
 author_profile: true
 ---
 
-Hi, I’m **Oleksandr Gerasymenko** — a Senior DevOps & FinOps engineer with extensive experience across AWS, GCP, Kubernetes, Terraform, CI/CD, and large-scale automation.
+I’m **Oleksandr Gerasymenko**, a Senior DevOps & FinOps Engineer with more than a decade of hands-on experience building secure, scalable, compliant cloud platforms across AWS and Google Cloud.
 
-I specialise in:
+My work blends **cloud architecture**, **automation**, **cost optimisation**, and **DevOps culture transformation**. I’ve helped companies reduce cloud spend by **30–90%**, designed multi-region DR strategies, built enterprise-grade CI/CD systems, and led engineering teams through complex migrations across healthcare, IoT, and AI domains.
 
-- Cloud architecture (AWS & Google Cloud)
-- Infrastructure as Code (Terraform, CloudFormation)
-- FinOps cost optimisation & guardrails
-- CI/CD automation (GitHub Actions, CircleCI, GitLab CI)
-- Multi-region, multi-account cloud setups
-- Security, compliance, disaster recovery
-- AI-powered automation (n8n, ChatGPT, Gemini)
-- Technical mentorship & engineering coaching
+### What I focus on
+- Cloud platforms (AWS, GCP, DigitalOcean)  
+- Infrastructure as Code (Terraform, CloudFormation, Ansible)  
+- CI/CD automation (GitHub, GitLab, CircleCI, TeamCity)  
+- Kubernetes and container orchestration (EKS, GKE, k3s, ECS)  
+- FinOps guardrails, budget enforcement, anomaly detection  
+- Disaster Recovery, cross-region replication, multi-cloud resilience  
+- Security, compliance (HIPAA, SOC 1/2, GDPR, data residency)  
+- AI-powered operational automation (n8n, ChatGPT, Gemini)  
 
-I currently work in the UK and support teams across international environments.
+### What I do beyond engineering
+I’m a **Google Cloud Coach** and **Projector Mentorship Platform** mentor, supporting engineers, founders, and early-career professionals as they grow their DevOps, Cloud, and AI expertise.  
+I’ve mentored **20+ engineers**, run 1-on-1 coaching sessions, and help teams link technical excellence with measurable business impact.
 
-I also mentor through **Google Cloud Coach**, **Projector Mentorship**, and help engineers grow in DevOps, automation and cloud careers.
+### Why this site exists
+This website is my personal hub where I share:
+- Real-world DevOps/FinOps case studies  
+- Automation tools and Terraform modules  
+- AI-powered workflows  
+- Articles, insights, and engineering notes  
+- My journey building systems that are fast, resilient, and cost-efficient  
 
-This website is my personal hub where I share knowledge, write articles, publish tools/scripts, and document my work.
+I believe in knowledge that is **practical, actionable, and transparent** — the kind that engineers can use the same day.

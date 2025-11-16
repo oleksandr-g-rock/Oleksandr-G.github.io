@@ -5,35 +5,60 @@ permalink: /projects/
 author_profile: true
 ---
 
-Below are selected projects, tools, and automations I've built or contributed to.
+Below is a selection of engineering work, automations, and cloud infrastructure solutions I’ve built across AWS, GCP, and multi-cloud environments.
 
 ---
 
-## 🔹 Cloud Cost Optimisation Framework (FinOps)
-Automated guardrails, budget enforcement, cost reporting, anomaly detection, and multi-cloud cost policies.  
-Includes n8n + GitHub + AWS/GCP automations.
+## 🔹 **Cloud Cost Optimisation Framework**
+A full FinOps automation suite including:
+- Budget guardrails  
+- Cost anomaly detection  
+- Scheduled shutdowns  
+- Resource cleanup workflows  
+- Multi-cloud reporting (AWS + GCP)  
+Built using n8n, GitHub Actions, Terraform, and custom Python automation.
 
 ---
 
-## 🔹 Multi-Region Disaster Recovery (AWS & GCP)
-Architected multi-region DR with RDS cross-region replicas, multi-region ECR syncing, global load balancing, and Terraform-driven failover procedures.
+## 🔹 **Multi-Region Disaster Recovery Architecture**
+Designed and deployed DR strategies across AWS and GCP:
+- Cross-region RDS replicas  
+- Multi-region ECR sync  
+- Global load balancing  
+- Automated failover procedures  
+- DR documentation & quarterly simulation testing  
 
 ---
 
-## 🔹 IAM Key Rotation Automation
-Python + Terraform automation that rotates IAM credentials, validates drift, updates CI/CD credentials and pushes notifications into Slack/SMS.
+## 🔹 **IAM Credential Rotation System**
+Python + Terraform automation for:
+- Rotating IAM keys  
+- Validating Terraform drift  
+- Updating CI/CD secrets  
+- Slack/SMS notifications  
+Improved security posture and removed manual overhead entirely.
 
 ---
 
-## 🔹 n8n Automation Platform
-Several custom workflows integrating Strava, Google Sheets, Apple Health, GitHub, Slack, Gemini, ChatGPT, and internal systems.
+## 🔹 **n8n Automation Platform**
+Built 30+ workflows integrating:
+- Strava, Apple Health, Google Sheets, GitHub  
+- Slack, Discord, Telegram  
+- Gemini, ChatGPT, and internal APIs  
+Used for FinOps, engineering productivity, personal analytics, and AI automation.
 
 ---
 
-## 🔹 Terraform Modules Library
-Reusable modules for IAM, VPC, ECS, ECR, SES, budgets, and monitoring.  
-Published for team use and DR replication across regions.
+## 🔹 **Terraform Modules Library**
+Reusable production-ready modules for:
+- IAM  
+- VPC  
+- ECS/ECR  
+- SES SMTP  
+- Budgets & cost alerts  
+- Monitoring & alarms  
+Developed for multi-region, multi-account cloud architecture.
 
 ---
 
-More projects coming soon — including AI-based DevOps assistants, FinOps dashboards, and productivity tools.
+More projects are in progress — including AI-driven DevOps assistants, cost optimisation bots, and cloud productivity tooling.

@@ -5,18 +5,25 @@ permalink: /contact/
 author_profile: true
 ---
 
-If you'd like to get in touch for DevOps/FinOps consulting, mentoring, or collaboration — here are the best ways:
+If you’d like to collaborate, request DevOps/FinOps consulting, or join a mentoring session — feel free to reach out.
 
-- **LinkedIn:**  
-  https://www.linkedin.com/in/oleksandr-devops-uk/
+### 📩 Contact Channels
 
-- **GitHub:**  
-  https://github.com/oleksandr-g-rock
+**LinkedIn**  
+https://www.linkedin.com/in/oleksandr-devops-uk/
 
-- **Medium:**  
-  https://oleksandrg.medium.com/
+**GitHub**  
+https://github.com/oleksandr-g-rock
 
-- **Email:**  
-  oleksandr_g-medium@yahoo.com
+**Medium**  
+https://oleksandrg.medium.com/
 
-I'm open to helping with cloud architecture, cost optimisation, DevOps tooling, engineering productivity, automation, and career coaching.
+**Email**  
+oleksandr_g-medium@yahoo.com
+
+I’m available for:
+- Cloud architecture reviews (AWS & GCP)  
+- FinOps audits and cost optimisation strategies  
+- CI/CD automation and productivity improvements  
+- DevOps mentoring & career coaching  
+- AI-powered workflow design and automation  
