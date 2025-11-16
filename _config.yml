@@ -1,54 +1,30 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: "Oleksandr Gerasymenko — Senior DevOps & FinOps Engineer"
+email: "oleksandr_g-medium@yahoo.com"
+description: >-
+  Senior DevOps, Cloud, and FinOps engineer with 10+ years of experience.
+  Mentor, Google Cloud Coach, cost-optimization specialist, and automation expert.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: MM
-email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+# SOCIAL
+twitter_username:
+github_username: oleksandr-g-rock
+linkedin_username: oleksandr-devops-uk
+
+# THEME SETTINGS
+minimal_mistakes_skin: dark
 search: true
 
-# Build settings
+# BUILD SETTINGS
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
+remote_theme: "mmistakes/minimal-mistakes@4.27.3"
+
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 5
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London
 
 include:
   - _pages
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
@@ -57,38 +33,42 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# AUTHOR PROFILE
 author:
-  name   : "First Lastname"
+  name   : "Oleksandr Gerasymenko"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Senior DevOps Engineer | Platform Engineer | Cloud Engineer | Software Engineer | FinOps | Cost Optimization | AWS | GCP | Google Cloud Coach & Mentor | Cloud, AI, DevOps & Automation Consultant"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/oleksandr-g-rock"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/oleksandr-devops-uk/"
+    - label: "Medium"
+      icon: "fas fa-fw fa-pen"
+      url: "https://oleksandrg.medium.com/"
+    - label: "Google Cloud Coach"
+      icon: "fas fa-fw fa-cloud"
+      url: "https://rsvp.withgoogle.com/events/grow-your-career-with-google-cloud/coaching"
+    - label: "Projector Mentor"
+      icon: "fas fa-fw fa-chalkboard-teacher"
+      url: "https://www.prjctrmentor.com/mentor/oleksandr-gerasymenko"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/oleksandr-g-rock"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/oleksandr-devops-uk/"
+    - label: "Medium"
+      icon: "fas fa-fw fa-pen"
+      url: "https://oleksandrg.medium.com/"
 
+# DEFAULT SETTINGS FOR PAGES & POSTS
 defaults:
-  # _posts
   - scope:
       path: ""
       type: posts
@@ -96,10 +76,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
-  # _pages
+
   - scope:
       path: "_pages"
       type: pages
@@ -107,9 +87,11 @@ defaults:
       layout: single
       author_profile: true
 
+# ARCHIVES
 category_archive:
   type: liquid
   path: /categories/
+
 tag_archive:
   type: liquid
   path: /tags/
